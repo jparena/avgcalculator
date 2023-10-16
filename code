@@ -1,0 +1,9 @@
+def get_average(scores):
+    total = 0
+    for score in scores:
+        total += score  # Use 'score' instead of 'scores'
+    average = total / len(scores)  # Use 'scores' instead of 'score'
+    return average
+    
+scores = [98, 80, 70, 60, 50]
+print("The average score is", get_average(scores))
